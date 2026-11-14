@@ -1,0 +1,7 @@
+{
+  "name": "lantern-isle",
+  "owner": { "name": "lantern-isle" },
+  "plugins": [
+    { "name": "lantern-isle", "source": "./", "description": "A lamp-lit ASCII seaside village at blue hour: misty ridges, sea fog, waves and foam, warm fireflies and light rain." }
+  ]
+}
