@@ -27,7 +27,7 @@ const { theme, problems } = makeColors({
 
 const LOOK: ThemeSetArgs = {
   colors: theme,
-  backdrop: { scene: 'lantern-isle', glass: { blur: 10, tint: '#0c0b10', opacity: 0.5 } },
+  backdrop: { scene: 'lantern-isle', glass: { blur: 0, tint: '#0c0b10', opacity: 0.5 } },
 }
 
 export const register: Register = on => {
