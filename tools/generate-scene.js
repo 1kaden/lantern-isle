@@ -349,9 +349,9 @@ const defs = `<radialGradient id="gF"><stop offset="0" stop-color="#ffe7a0" stop
   + `<linearGradient id="w2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#143643" stop-opacity=".6"/><stop offset=".08" stop-color="#0c2530" stop-opacity=".88"/><stop offset=".3" stop-color="#071820" stop-opacity=".96"/></linearGradient>`
   + `<linearGradient id="w3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#12323e" stop-opacity=".65"/><stop offset=".08" stop-color="#0a222c" stop-opacity=".9"/><stop offset=".3" stop-color="#06141b" stop-opacity=".97"/></linearGradient>`
   + `<linearGradient id="rmg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff"/><stop offset=".55" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient><mask id="rm" maskUnits="userSpaceOnUse" x="0" y="0" width="${W}" height="${15 * RH}"><rect width="${W}" height="${15 * RH}" fill="url(#rmg)"/></mask>`
-  + `<filter id="fogb" x="-30%" y="-100%" width="160%" height="300%"><feGaussianBlur stdDeviation="14"/></filter>`
-  + `<filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="3.2"/></filter>`
-  + `<filter id="glow2" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="9"/></filter>`;
+  + `<filter id="fogb" x="-30%" y="-100%" width="160%" height="300%"><feGaussianBlur stdDeviation="0"/></filter>`
+  + `<filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="0"/></filter>`
+  + `<filter id="glow2" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="0"/></filter>`;
 
 const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid slice"><style>${css}</style><defs>${defs}<g id="gt">${glowText}</g></defs>`
   + `<rect width="${W}" height="${H}" fill="url(#bg)"/>`
